@@ -10,6 +10,10 @@
     border-right:0.5px solid grey ;
 }
 
+blockquote{
+    font-variant-ligatures: common-ligatures;
+}
+
 @media (max-width: 575.98px) { 
     .home-page-link{
         display: none;
