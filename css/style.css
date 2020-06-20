@@ -95,16 +95,16 @@
 /* Font Size */
 
 .small-fonts{
-    font-size: 11px;
+    font-size: 0.7rem;
     font-family: Roboto;
 }
 
 blockquote{
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .fonts-large{
-    font-size: 168px;
+    font-size: 10.2rem;
     font-family: 'Bebas Bold';
 }
 .small-quote{
@@ -112,6 +112,21 @@ blockquote{
 }
 .big-quote{
     display: inline;
+}
+
+.btn-create{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) { 
+    .fonts-large{
+        font-size: 6.2rem;
+        font-family: 'Bebas Regular';
+    }
+    blockquote{
+        font-size: 0.82rem;
+    }
 }
 
 @media (max-width: 575.98px) { 
@@ -125,14 +140,14 @@ blockquote{
         display: none;
     }
     .fonts-large{
-        font-size: 68px;
+        font-size: 4.12rem;
         font-family: 'Bebas Regular';
     }
     .foot{
         display: none;
     }
     blockquote{
-        font-size: 16px;
+        font-size: 0.9rem;
     }
     .small-quote{
         display: inline;
