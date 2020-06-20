@@ -1,7 +1,9 @@
 .container{
     background-image: url('../images/Bg.jpg');
+    padding-right: unset!important;
 }
 
 .main-navbar{
     background-color:rgb(0,0,0,0.8);
+    
 }
