@@ -1,4 +1,23 @@
 /* Set Fonts */
+/* Bebas Regular */
+@font-face {
+    font-family: 'Bebas Regular';
+    src: url('../fonts/bebas/bebas_regular/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebas/bebas_regular/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas/bebas_regular/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebas/bebas_regular/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebas/bebas_regular/bebasneue_regular-webfont.svg') format('svg');
+  }
+  /* Bebas Bold */
+@font-face {
+    font-family: 'Bebas Bold';
+    src: url('../fonts/bebas/bebas_bold/bebasneue_bold-webfont.eot');
+    src: url('../fonts/bebas/bebas_bold/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas/bebas_bold/bebasneue_bold-webfont.woff') format('woff'),
+         url('../fonts/bebas/bebas_bold/bebasneue_bold-webfont.ttf') format('truetype'),
+         url('../fonts/bebas/bebas_bold/bebasneue_bold-webfont.svg') format('svg');
+  }
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Roboto';
@@ -80,7 +99,20 @@
     font-family: Roboto;
 }
 
+blockquote{
+    font-size: 18px;
+}
 
+.fonts-large{
+    font-size: 168px;
+    font-family: 'Bebas Bold';
+}
+.small-quote{
+    display: none;
+}
+.big-quote{
+    display: inline;
+}
 
 @media (max-width: 575.98px) { 
     .home-page-link{
@@ -92,5 +124,22 @@
     .services-horiz-list{
         display: none;
     }
+    .fonts-large{
+        font-size: 68px;
+        font-family: 'Bebas Regular';
+    }
+    .foot{
+        display: none;
+    }
+    blockquote{
+        font-size: 16px;
+    }
+    .small-quote{
+        display: inline;
+    }
+    .big-quote{
+        display: none;
+    }
+
 }
 
