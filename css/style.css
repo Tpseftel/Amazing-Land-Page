@@ -96,6 +96,9 @@
 }
 
 /* Font Size */
+.center-verticaly {
+    margin: auto;
+  }
 
 .small-fonts{
     font-size: 0.7rem;
@@ -140,24 +143,13 @@ blockquote{
     border-color: red;
     font-weight: 500;
 }
-
-
-@media (max-width: 767px) { 
-    .fonts-large{
-        font-size: 6.2rem;
-        font-family: 'Bebas Regular';
-    }
-    blockquote{
-        font-size: 0.82rem;
-    }
-}
-.jumbotron{
+.jumbotron-arrow{
     background-color: #EFEFEF;
     position:relative;
     width:100% !important;
 }
 
-.jumbotron:after {
+.jumbotron-arrow:after {
     content:'';
     position: absolute;
     top: 100%;
@@ -169,6 +161,24 @@ blockquote{
     border-left: solid 200px transparent;
     border-right: solid 200px transparent;
 }
+
+.footer{
+ background-color: #000000;
+
+}
+
+
+
+@media (max-width: 767px) { 
+    .fonts-large{
+        font-size: 6.2rem;
+        font-family: 'Bebas Regular';
+    }
+    blockquote{
+        font-size: 0.82rem;
+    }
+}
+
 
 @media (max-width: 575.98px) { 
     .home-page-link{
