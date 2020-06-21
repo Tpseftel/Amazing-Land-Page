@@ -383,14 +383,12 @@
                             <!-- Default input -->
                             <label for="cash-input"><span class="font-weight-bold text-left"> Lorem Ipsum is
                                     simply</span> </label>
-                            <input type="text" id="cash-input" class="form-control" value="0.00">
+                            <input type="number" id="cash-input" class="form-control" value="0.00">
                         </div>
                         <div class="col-sm">
                             <label for="currency-select"><span class="font-weight-bold text-left"> Lorem Ipsum is
                                     simply</span> </label>
                             <select id="currency-select" class="browser-default custom-select">
-                                <option selected>USD</option>
-                                <option value="1">GBP</option>
                             </select>
                         </div>
 
@@ -400,9 +398,9 @@
                                     <div class="col-4">
                                         <label for="" style="visibility: hidden;"> <span
                                                 class="font-weight-bold text-left">create</span> </label>
-                                        <button class="btn btn-primary "
+                                        <button id="curr-swap" class="btn btn-primary "
                                             style="width: 100%; background-color: #4A4A4A; border: #4A4A4A;"
-                                            type="submit">
+                                            type="button">
                                             <span style="font-size: large;">&#8646;</span>
                                         </button>
                                     </div>
@@ -443,10 +441,7 @@
             <div class="col-sm-6 text-left">
                 <label for="jobs-select" class="font-weight-bold"> All Jobs</label>
                 <select id="jobs-select" style="background-color: #F6F6F6;" class="browser-default custom-select">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                   
                 </select>
             </div>
         </div>
@@ -469,6 +464,8 @@
 
 
     <!-- May import Jquery for bootstrap if needed -->
+    <script src="./js/data.js"></script>
+    <script src="./js/ui.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
