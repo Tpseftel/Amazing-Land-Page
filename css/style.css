@@ -121,6 +121,11 @@ blockquote{
     font-size: 1.5rem;
     font-weight: bold;
 }
+.foot{
+    font-size: 0.88rem;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
 
 .services-horiz-list{
     background-color: #272727;
