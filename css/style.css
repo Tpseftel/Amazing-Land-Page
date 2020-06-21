@@ -122,6 +122,11 @@ blockquote{
     font-weight: bold;
 }
 
+.services-horiz-list{
+    background-color: #272727;
+    border-top: 1.5px solid #484848;
+}
+
 @media (max-width: 767px) { 
     .fonts-large{
         font-size: 6.2rem;
