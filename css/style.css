@@ -142,14 +142,6 @@ blockquote{
 }
 
 
-
-
-
-
-
-
-
-
 @media (max-width: 767px) { 
     .fonts-large{
         font-size: 6.2rem;
@@ -159,13 +151,25 @@ blockquote{
         font-size: 0.82rem;
     }
 }
-.wrap { 
-    white-space: pre-wrap;      /* CSS3 */   
-    white-space: -moz-pre-wrap; /* Firefox */    
-    white-space: -pre-wrap;     /* Opera <7 */   
-    white-space: -o-pre-wrap;   /* Opera 7 */    
-    word-wrap: break-word;      /* IE */
- }
+.jumbotron{
+    background-color: #EFEFEF;
+    position:relative;
+    width:100% !important;
+}
+
+.jumbotron:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 37%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #EFEFEF;
+    border-left: solid 200px transparent;
+    border-right: solid 200px transparent;
+}
+
 @media (max-width: 575.98px) { 
     .home-page-link{
         display: none;
