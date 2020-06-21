@@ -131,6 +131,24 @@ blockquote{
     background-color: #272727;
     border-top: 1.5px solid #484848;
 }
+/*--------------------------------- End Page 1------------------------------- */
+
+.custom-list-item.active {
+    z-index: 2;
+    color: red;
+    background-color: initial;
+    border-color: red;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 767px) { 
     .fonts-large{
