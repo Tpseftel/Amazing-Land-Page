@@ -203,6 +203,7 @@ blockquote{
     .small-quote{
         display: inline;
     }
+    .trader-list,
     .big-quote{
         display: none;
     }
