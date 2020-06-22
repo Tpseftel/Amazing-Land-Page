@@ -191,8 +191,8 @@ blockquote{
         display: none;
     }
     .fonts-large{
-        font-size: 4.12rem;
-        font-family: 'Bebas Regular';
+        font-size: 4.6rem;
+        font-family: 'Bebas Bold';
     }
     .foot{
         display: none;
@@ -206,6 +206,10 @@ blockquote{
     .trader-list,
     .big-quote{
         display: none;
+    }
+    .blockquote,
+    .blockquote div {
+        padding-top: unset!important;
     }
 
     .jumbotron-arrow:after {
