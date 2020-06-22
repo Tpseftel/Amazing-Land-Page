@@ -208,5 +208,19 @@ blockquote{
         display: none;
     }
 
+    .jumbotron-arrow:after {
+        content:'';
+        position: absolute;
+        top: 100%;
+        left: 37%;
+        margin-left: -50px;
+        width: 0;
+        height: 0;
+        border-top: solid 30px #EFEFEF;
+        border-left: solid 100px transparent;
+        border-right: solid 100px transparent;
+    }
+    
+
 }
 
