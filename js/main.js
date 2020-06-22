@@ -17,7 +17,7 @@ function calculateExchange(){
     if(currency.options[currency.selectedIndex].text ==='USD') output = 'GBP';
     if(currency.options[currency.selectedIndex].text ==='GBP') output = 'USD';
 
-    document.getElementById('cash-result').value = output + "         " + exchange.toFixed(3);
+    document.getElementById('cash-result').value = output + "         " + exchange.toFixed(2);
 }
 
 

@@ -139,13 +139,19 @@ blockquote{
     border-top: 1.5px solid #484848;
 }
 /*--------------------------------- End Page 1------------------------------- */
-
+.custom-list-item{
+    color: #969696;
+    font-weight: 500;
+    font-family: 'Bebas Regular';
+    font-size: 16px;
+}
 .custom-list-item.active {
     z-index: 2;
-    color: red;
+    color: #D51820;
     background-color: initial;
     border-color: red;
     font-weight: 500;
+    font-family: 'Bebas bold';
 }
 .jumbotron-arrow{
     background-color: #EFEFEF;
