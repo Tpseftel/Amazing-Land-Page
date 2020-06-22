@@ -201,6 +201,10 @@ blockquote{
 
 
 @media (max-width: 575.98px) { 
+    .small-labels label{
+        font-size: small;
+    }
+
     .secondary-t {
         font-size: 0.7rem;
         font-weight: 400;
