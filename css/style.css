@@ -119,6 +119,9 @@ blockquote{
 .big-quote{
     display: inline;
 }
+#carouselTrade{
+    display: none;
+}
 
 .btn-create{
     font-size: 1.3rem;
@@ -235,13 +238,19 @@ blockquote{
     .small-quote{
         display: inline;
     }
+    .trade-list-visibility,
     .trader-list,
     .big-quote{
         display: none;
     }
+
+    
     .blockquote,
     .blockquote div {
         padding-top: unset!important;
+    }
+    #carouselTrade{
+        display: block;
     }
 
     .jumbotron-arrow:after {
