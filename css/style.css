@@ -138,6 +138,16 @@ blockquote{
     background-color: #272727;
     border-top: 1.5px solid #484848;
 }
+
+.medium-header{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.secondary-t {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
 /*--------------------------------- End Page 1------------------------------- */
 .custom-list-item{
     color: #969696;
@@ -191,6 +201,14 @@ blockquote{
 
 
 @media (max-width: 575.98px) { 
+    .secondary-t {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    .medium-header{
+        font-size: 1rem;
+        font-weight: 700;
+    }
     .home-page-link{
         display: none;
     }
